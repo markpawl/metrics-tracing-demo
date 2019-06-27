@@ -45,6 +45,18 @@
 			<artifactId>micrometer-registry-prometheus</artifactId>
 		</dependency>
 
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+        
+		<dependency>
+			<groupId>io.jaegertracing</groupId>
+			<artifactId>jaeger-client</artifactId>
+			<version>0.34.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
